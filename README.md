@@ -1,24 +1,11 @@
-# vue-app
+1) Download the repisotory, anywhere on your C Drive.
 
-## Project setup
-```
-npm install
-```
+2) Open the project with your Code Editor.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+3) In the Terminal of your Code Editor, (if you don't have one, you can do this also using CMD, navigating to the root of the project). Run the command:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+    - docker-compose up
+    
+This will build the containers and the application for the local environment.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Once this has been built, simply navigate to localhost:8080.
